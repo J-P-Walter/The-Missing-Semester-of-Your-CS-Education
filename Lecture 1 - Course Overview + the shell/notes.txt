@@ -1,0 +1,26 @@
+bash - born again shell, most common type of shell
+arguments separated by whitespace, use "" or '' or \ 
+commands look in $PATH to find program/file, use which to find where command is located
+absolute path - path that fully determine the location of file
+    vs relative path - path that is relative to current location
+arguments - flags/options
+    no value: flag
+    value:    option
+-l gives more info 
+    ex. drwxr-xr-x
+        r - read, w - write, x - exectue
+        d means directory
+        first three - owner permissions
+        second three - group permissions
+        third three - everyone else permissions
+    shows owner and groups
+man for manual pages for commands
+streams, input and output
+    default input is keyboard
+    default output is what prints to terminal
+    can use > or < to redirect, double to append instead of overwrite
+        < input into file
+        > output into file
+    pipe character, |
+        take output of left and make input to right program
+sudo - do as superuser

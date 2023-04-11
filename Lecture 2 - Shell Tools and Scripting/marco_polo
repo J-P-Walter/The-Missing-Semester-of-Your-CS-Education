@@ -1,0 +1,7 @@
+marco() { 
+    marco_wd=$PWD; 
+}
+
+polo() { 
+    [[ -n $marco_wd ]] && cd "$marco_wd"; 
+}

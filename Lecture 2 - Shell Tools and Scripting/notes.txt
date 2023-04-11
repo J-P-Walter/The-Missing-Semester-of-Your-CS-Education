@@ -1,0 +1,30 @@
+spaces are reserved
+    valid: foo=bar
+    invalid: foo = bar
+define strings using "" or ''
+    "" to use replacement inside
+        ex. "Value is $foo" == Value is bar
+            'Value is $foo' == Value is $foo
+access arguments with $n, n being index of argument
+    $_ is last pevious argument
+!! is last command
+$? is previous error code
+&&/||, true/false able to be used
+    ; connects commands in same line
+$$ is prcoess id
+$@ all arguments
+$# is nummber of arguments
+globbing, ex. *.txt is all txt files, ? expands a single character, .. is range ex. a..d
+{} expands, ex convert image.{png,jpg} == convert image.png image.jpg
+    ex. touch notes{1,2,5}.txt == touch notes1.txt notes2.txt notes5.txt
+diff <(ls foo) <(ls bar) difference in two folders
+
+finding files
+    ex find . -name src -type d
+        find in current folder, name is src, type is directory
+    lot of stuff here, check man page
+    locate can also be used
+    can grep to find content in files
+        ripgrep or rg is algo good but I cant use ;_;
+
+moving directories, fasd

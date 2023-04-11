@@ -1,0 +1,20 @@
+Taking this set of notes on vim
+rebind escape to another key, saw another tutorial and make it jj
+i is insert, x is backspace
+currently not sold on this tbh
+A while in normal mode to go to end of line and be in insert mode, a to append insert to right of cursor
+0 goes to beginning, $ goes to end, ^ goes to non-empty character
+ctrl u is pageup, ctrl d is pagedown, s is delete and insert 
+really wish I could use 'i' to go up but worried that will throw off the rest of the keybinds
+f character is find, ex fo finds first o, capital F jumps backwards
+    t is similar, jumps to just before 
+o creates new line in insert mode at same depth
+w to select word, e to move to end of word, b is same but backwards, ge to jump back to end
+d is for deletion
+    dw deletes word, u undo, de delete end of word 
+    c is similar, cw for change, puts in input mode, ce to delete till end of word test
+y is copy, yw is select word, p to paste
+v to enter visual mode, select chunk of text, v again to exit
+counts, can give command to do thing number of times, ex 4j goes up 4 times
+i inside, ex ci[ or di( 
+% to jump ()[],

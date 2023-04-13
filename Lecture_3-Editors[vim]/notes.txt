@@ -8,7 +8,7 @@ ctrl u is pageup, ctrl d is pagedown, s is delete and insert
 really wish I could use 'i' to go up but worried that will throw off the rest of the keybinds
 f character is find, ex fo finds first o, capital F jumps backwards
     t is similar, jumps to just before 
-o creates new line in insert mode at same depth
+o creates new line in insert mode at same depth, O new line above
 w to select word, e to move to end of word, b is same but backwards, ge to jump back to end
 d is for deletion
     dw deletes word, u undo, de delete end of word 
@@ -18,3 +18,4 @@ v to enter visual mode, select chunk of text, v again to exit
 counts, can give command to do thing number of times, ex 4j goes up 4 times
 i inside, ex ci[ or di( 
 % to jump ()[],
+/ starts search, n is next found, . repeats last

@@ -1,0 +1,23 @@
+can send commands through ssh to have server do commands
+less is "pager", takes long amounts of content and condenses to size that 
+    fits in terminal window
+sed - stream editor, allows you to make changes to content of a stream
+    usually run replacement on calls of a stream
+        ex. sed 's/.*Disconnected from //' removed everything before Disconnected...
+            .* regex
+            's/[ab]//g', g flag repeats for all found
+            * is 0 or more, . is any character
+            run sed with -E to run more modern regex
+            ^ achors to beginning, $ anchors end
+            ? first found
+regex - capture groups:
+    remember vaue and use later, use ()
+    \n, indexed at 1,
+look for regular expression debugger, ex. regex101.com
+wc is wordcount, -l is num lines
+sort sorts
+    sort -n numberic sort, -k to select column, ex 1,1 start and stop on first column
+uniq pulls out unique, -c counts num of duplicates
+awk is column based stream processor
+    use $n, indexed at 1 to select specific columns
+    can use regex with it too

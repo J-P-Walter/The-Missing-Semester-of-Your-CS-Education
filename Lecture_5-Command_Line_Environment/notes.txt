@@ -1,0 +1,31 @@
+signals
+    SIGINT differs from SIGQUIT
+        ctrl+c vs ctrl+\
+    SIGSTOP ctrl+z
+        think of it like a pause
+    jobs prints suspended and running jobs
+    use %n to select jobs, indexed at 1
+    use fg or bg to continue paused jobs
+tmux
+    new shell?
+    separate from shell process
+    ctrl+d to detach
+    tmux a to reattach
+    keybinding is prefix then ctrl B, then other keypress
+        ex detatch is ctrl+b, then d
+    tmux ls prints tmux sessions
+    ctrl+b c creates new window
+    ctrl+b p goes to previous window, n goes to next window, can also use numbers
+    ctrl+b , renames
+    ctrl+b w shows windows
+    ctrl+b " splits
+    ctrl+b arrow_key jumps between split windows
+    ctrl+b z zooms, toggles current pane fullscreen
+alias
+    command that is built into shell, remaps longer sequence of characters into other sequence of characters
+    alias x="args -flags"
+    idea might be alias gs="git status"
+    or to fix typos, alias claer="clear"
+    can also auto put flags alias, mv="mv -i"
+    normally goes away when shell is closed, can modify dotfile
+        .bashrc, needs to be in home folder
